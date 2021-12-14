@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студия</title>
-    <!--Commit test-->
   </head>
 
   <body>
+    <!--Шапка Сайта-->
     <header>
       <a href="https://www.google.com/">WebStudio</a>
       <!-- navigation section-->
@@ -16,7 +16,7 @@
         <ul>
           <li>
             <a href="https://www.google.com">
-              <img src="/goit-markup-hw-01/images/finger1.jpg" alt="" />Студия</a
+              <img src="./images/finger1.svg" alt="Указатель в виде пальца" />Студия</a
             >
           </li>
           <li><a href="https://www.google.com">Портфолио</a></li>
@@ -25,125 +25,134 @@
       </nav>
       <!-- contacts section-->
       <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li>
+        <li>
+          <a href="mailto:info@devstudio.com">
+            <img src="./images/finger2.svg" alt="Указатель в виде пальца" />info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+380961111111">+380961111111</a>
+        </li>
       </ul>
     </header>
 
-    <div>
+    <!--Мейн секция-->
+    <main>
+      <!-- Блок с кнопкой-->
+      <div>
+        <section>
+          <h1>
+            Эффективные решения <br />
+            для вашего бизнеса
+          </h1>
+          <button type="button">Заказать услугу</button>
+        </section>
+      </div>
+
+      <!--Особенности-->
       <section>
-        <h1>
-          Эффективные решения <br />
-          для вашего бизнеса
-        </h1>
-        <button type="button">Заказать услугу</button>
+        <h2>Особенности</h2>
+        <ul>
+          <li>
+            <h3>Внимание к деталям</h3>
+            <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+          </li>
+
+          <li>
+            <h3>Пунктуальность</h3>
+            <p>
+              Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+            </p>
+          </li>
+
+          <li>
+            <h3>Планирование</h3>
+            <p>
+              Равным образом консультация с широким активом в значительной степени обуславливает.
+            </p>
+          </li>
+
+          <li>
+            <h3>Современные технологии</h3>
+            <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+          </li>
+        </ul>
       </section>
-    </div>
 
-    <!--Studio features-->
-    <section>
-      <ul>
-        <li>
-          <h3>Внимание к деталям</h3>
-          <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-        </li>
-        <li>
-          <h3>Пунктуальность</h3>
-          <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-        </li>
-        <li>
-          <h3>Планирование</h3>
-          <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-        </li>
-        <li>
-          <h3>Современные технологии</h3>
-          <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-        </li>
-      </ul>
-    </section>
+      <!--Чем мы занимаемся-->
+      <section>
+        <h2>Чем мы занимаемся</h2>
+        <ul>
+          <li>
+            <img src="/images/desk.jpg" alt="программист работает за столом в офисе" width="370" />
+          </li>
 
-    <!--Studio services-->
-    <section>
-      <h2>Чем мы занимаемся</h2>
-      <ul>
-        <li>
-          <img
-            src="/images/desk.jpg"
-            alt="close up image programer working his desk office"
-            width="370"
-            height="294"
-          />
-        </li>
-
-        <li>
-          <img
-            src="/images/mobile.jpg"
-            alt="web ui designers are developing application smartphones team creators is working interface mobile phones"
-            width="370"
-            height="294"
-          />
-        </li>
-
-        <li>
-          <img
-            src="/images/tablet.jpg"
-            alt="creative artist web design with working colour selection graphic tablet"
-            width="370"
-            height="294"
-          />
-        </li>
-      </ul>
-    </section>
-
-    <!--Studio team-->
-    <section>
-      <h2>Наша команда</h2>
-      <ul>
-        <li>
-          <figure>
+          <li>
             <img
-              src="/images/Igor-Demyanenko.jpg"
-              alt="Product Designer"
-              width="270"
-              height="260"
+              src="/images/mobile.jpg"
+              alt="веб-дизайнеры пользовательского интерфейса разрабатывают приложения для смартфонов, команда разработчиков работает над интерфейсом мобильных телефонов."
+              width="370"
             />
-            <figcaption>
-              <h3>Игорь Демьяненко</h3>
-              <div>Product Designer</div>
-            </figcaption>
-          </figure>
-        </li>
+          </li>
 
-        <li>
-          <figure>
-            <img src="/images/Olga-Repina.jpg" alt="Frontend Developer" width="270" height="260" />
-            <figcaption>
-              <h3>Ольга Репина</h3>
-              <div>Frontend Developer</div>
-            </figcaption>
-          </figure>
-        </li>
+          <li>
+            <img
+              src="/images/tablet.jpg"
+              alt="креативный художник веб-дизайна работает с графическим планшетом над выбором цвета"
+              width="370"
+            />
+          </li>
+        </ul>
+      </section>
 
-        <li>
-          <figure>
-            <img src="/images/Nikolay-Tarasov.jpg" alt="Marketing" width="270" height="260" />
-            <figcaption>
-              <h3>Николай Тарасов</h3>
-              <div>Marketing</div>
-            </figcaption>
-          </figure>
-        </li>
+      <!--Наша команда-->
+      <section>
+        <h2>Наша команда</h2>
+        <ul>
+          <li>
+            <figure>
+              <img src="/images/Igor-Demyanenko.jpg" alt="Product Designer" width="270" />
+              <figcaption>
+                <h3>Игорь Демьяненко</h3>
+                <div>Product Designer</div>
+              </figcaption>
+            </figure>
+          </li>
 
-        <li>
-          <figure>
-            <img src="/images/Mikhail-Ermakov.jpg" alt="UI Designer" width="270" height="260" />
-            <figcaption>
-              <h3>Михаил Ермаков</h3>
-              <div>UI Designer</div>
-            </figcaption>
-          </figure>
-        </li>
-      </ul>
-    </section>
+          <li>
+            <figure>
+              <img src="/images/Olga-Repina.jpg" alt="Frontend Developer" width="270" />
+              <figcaption>
+                <h3>Ольга Репина</h3>
+                <p>Frontend Developer</p>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li>
+            <figure>
+              <img src="/images/Nikolay-Tarasov.jpg" alt="Marketing" width="270" />
+              <figcaption>
+                <h3>Николай Тарасов</h3>
+                <p>Marketing</p>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li>
+            <figure>
+              <img src="/images/Mikhail-Ermakov.jpg" alt="UI Designer" width="270" />
+              <figcaption>
+                <h3>Михаил Ермаков</h3>
+                <p>UI Designer</p>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!--Футер-->
+    <footer>Футер</footer>
   </body>
 </html>
