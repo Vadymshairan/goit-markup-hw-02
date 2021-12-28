@@ -1,16 +1,85 @@
-.site-nav a {
-  color: #212121;
+/* цвет текста заголовков #212121 */
+/* цвет текста абзацев #757575 */
+/* синий для оформления #2196F3 */
+
+/* цвет фона #FFFFFF */
+/* вторичный цвет фона #F5F4FA */
+/* белый #FFFFFF */
+/* цвет телефона и maila в футере rgba(255, 255, 255, 0.6); */
+:root {
+  --primery-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+.body {
+  background-color: var(--primary-white-color);
+  color: var(--primery-text-color);
 }
 
-.site-nav a:hover,
-.site-nav a:focus {
-  color: #2196f3;
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
 }
 
+.logo {
+  color: #000000;
+}
+/* <!-- navigation section--> */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/* <!-- contacts section--> */
 .contacts a {
-  color: #212121;
+  color: var(--primery-text-color);
 }
-.contacts a:hover,
-.contacts a:focus {
-  color: #2196f3;
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+/* Hero */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.section-title {
+  color: var(--title-text-color);
+}
+/* features */
+.features .title {
+  color: var(--title-text-color);
+}
+/* Team */
+.team .title {
+  color: var(--title-text-color);
+}
+
+/* Стили для Портфолио */
+.portfolio .title {
+  color: var(--title-text-color);
 }
