@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <body class="body">
     <!--Шапка Сайта-->
     <header class="page-header">
-      <a href="./index.html" class="logo"><span>Web</span><span>Studio</span> </a>
+      <a href="./index.html" class="logo">Web<span class="logo-header">Studio</span></a>
       <!-- navigation section-->
       <nav>
         <ul class="site-nav">
@@ -28,38 +32,38 @@
           <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
         </li>
         <li>
-          <a href="tel:+380961111111">+380961111111</a>
+          <a href="tel:+380961111111" class="link">+380961111111</a>
         </li>
       </ul>
     </header>
 
     <!--Мейн секция-->
     <main>
+      <!-- <h1>Портфолио</h1> -->
       <!--Фильтры-->
       <section>
         <!-- <h2>Фильтры</h2> -->
-        <ul>
+        <ul class="filters">
           <li>
-            <button type="button">Все</button>
+            <button type="button" class="filters-button">Все</button>
           </li>
           <li>
-            <button type="button">Веб-сайты</button>
+            <button type="button" class="filters-button">Веб-сайты</button>
           </li>
           <li>
-            <button type="button">Приложения</button>
+            <button type="button" class="filters-button">Приложения</button>
           </li>
           <li>
-            <button type="button">Дизайн</button>
+            <button type="button" class="filters-button">Дизайн</button>
           </li>
           <li>
-            <button type="button">Маркетинг</button>
+            <button type="button" class="filters-button">Маркетинг</button>
           </li>
         </ul>
       </section>
 
       <!-- Портфолио студии -->
       <section class="section">
-        <!-- <h2>Портфолио студии</h2> -->
         <ul class="portfolio">
           <li>
             <img
@@ -143,18 +147,19 @@
     </main>
 
     <!--Футер-->
-    <footer>
-      <a href="/index.html"><span>Web</span><span>Studio</span> </a>
+    <footer class="footer">
+      <a href="/index.html" class="logo">Web<span class="logo-footer">Studio</span></a>
       <address>
-        <ul>
+        <ul class="contacts">
           <li>
             <a
               href="https://www.google.com.ua/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265841,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
+              class="link"
               >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+380961111111</a></li>
+          <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111" class="link">+380961111111</a></li>
         </ul>
       </address>
     </footer>
