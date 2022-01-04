@@ -7,7 +7,7 @@
 /* белый #FFFFFF */
 /* цвет телефона и maila в футере rgba(255, 255, 255, 0.6); */
 :root {
-  --primery-text-color: #757575;
+  --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
@@ -54,7 +54,7 @@
 }
 /* <!-- contacts section--> */
 .contacts .link {
-  color: var(--primery-text-color);
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -80,6 +80,7 @@
 }
 .hero .button {
   cursor: pointer;
+  font-family: inherit;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-weight: 700;
@@ -150,6 +151,9 @@
   line-height: 2;
   letter-spacing: 0.06em;
 }
+.contacts .actual {
+  color: var(--primary-white-color);
+}
 
 .portfolio .subtitle {
   font-size: 16px;
@@ -166,11 +170,11 @@
   text-align: center;
 }
 .filters-button:hover,
-.filters-button:active {
+.filters-button:focus {
   cursor: pointer;
-  background-color: var(--accent-color);
   font-family: inherit;
   color: var(--primary-white-color);
+  background-color: var(--accent-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
